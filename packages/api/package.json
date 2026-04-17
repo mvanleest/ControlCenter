@@ -1,0 +1,29 @@
+{
+  "name": "@control-center/api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "pnpm exec vitest run --passWithNoTests",
+    "lint": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.930.0",
+    "@aws-sdk/client-s3": "^3.930.0",
+    "@aws-sdk/client-sqs": "^3.930.0",
+    "@aws-sdk/lib-dynamodb": "^3.930.0",
+    "@control-center/domain": "workspace:*",
+    "@control-center/provider-adapters": "workspace:*",
+    "@hono/zod-validator": "^0.7.6",
+    "hono": "^4.12.14",
+    "sst": "^3.17.23",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.152",
+    "@types/node": "^24.9.1",
+    "typescript": "^6.0.2",
+    "vitest": "^3.2.4"
+  }
+}
