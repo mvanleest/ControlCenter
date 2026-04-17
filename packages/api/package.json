@@ -24,6 +24,6 @@
     "@types/aws-lambda": "^8.10.152",
     "@types/node": "^25.6.0",
     "typescript": "^6.0.2",
-    "vitest": "^3.2.4"
+    "vitest": "^4.1.4"
   }
 }
