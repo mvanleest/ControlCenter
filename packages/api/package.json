@@ -11,7 +11,7 @@
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.1031.0",
     "@aws-sdk/client-s3": "^3.1031.0",
-    "@aws-sdk/client-sqs": "^3.1031.0",
+    "@aws-sdk/client-sqs": "^3.1037.0",
     "@aws-sdk/lib-dynamodb": "^3.1031.0",
     "@control-center/domain": "workspace:*",
     "@control-center/provider-adapters": "workspace:*",
